@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Cakes Infinite</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_create_account">Create an account</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+    <string name="forgot_password"><u>Forgot password?</u></string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_fondant_cakes">Fondant Cakes</string>
+    <string name="nav_custom_cakes">Custom Cakes</string>
+    <string name="nav_express_delivery">Express Delivery</string>
+    <string name="nav_ice_cream_cakes">Ice Cream Cakes</string>
+    <string name="nav_cup_cakes">Cup Cakes</string>
+    <string name="nav_sweets">Sweets</string>
+    <string name="nav_doughnuts">Doughnuts</string>
+    <string name="nav_biscuits">Biscuits</string>
+    <string name="nav_brownies">Brownies</string>
+    <string name="nav_blog">Blog</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_delivery_policy">Delivery Policy</string>
+    <string name="nav_privacy_policy">Privacy Policy</string>
+    <string name="nav_terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="nav_contact_us">Contact Us</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Fondant Cakes</item>
+        <item>Custom Cakes</item>
+        <item>Express Delivery</item>
+        <item>Ice Cream Cakes</item>
+        <item>Cup Cakes</item>
+        <item>Sweets</item>
+        <item>Doughnuts</item>
+        <item>Biscuits</item>
+        <item>Brownies</item>
+        <item>Blog</item>
+        <item>About Us</item>
+        <item>Delivery Policy</item>
+        <item>Privacy Policy</item>
+        <item>Terms &amp; Conditions</item>
+        <item>Contact Us</item>
+    </string-array>
+
+    <!-- User menu labels -->
+    <string name="action_logout">Logout</string>
+
+    <!--Main Screen Strings-->
+    <string name="checkout">Checkout</string>
+    <string name="similar_product">You may also like</string>
+
+
+
+</resources>

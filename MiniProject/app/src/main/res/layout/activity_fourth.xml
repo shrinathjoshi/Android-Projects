@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fourth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.miniproject.FourthActivity">
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Type your Feedback Message"
+        android:inputType="textPersonName"
+        android:lines="5"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Send" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSend"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnSend"
+        android:layout_marginBottom="45dp"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/btnWhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSend"
+        android:layout_alignStart="@+id/btnSend"
+        android:layout_below="@+id/btnSend"
+        android:layout_marginTop="47dp"
+        android:text="Whatsapp" />
+</RelativeLayout>

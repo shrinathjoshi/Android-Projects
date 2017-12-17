@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/About"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="always"/>
+
+
+
+    <item
+        android:id="@+id/Webiste"
+        android:orderInCategory="200"
+        android:title="Website"
+        app:showAsAction="always"/>
+
+
+
+    <item
+        android:id="@+id/Contact"
+        android:orderInCategory="300"
+        android:title="Contact Us"
+        app:showAsAction="ifRoom"/>
+
+
+
+    <item
+        android:id="@+id/Settings"
+        android:orderInCategory="400"
+        android:title="Setting"
+        app:showAsAction="ifRoom"/>
+
+
+
+    <item
+        android:id="@+id/Follow"
+        android:orderInCategory="500"
+        android:title="Follow"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

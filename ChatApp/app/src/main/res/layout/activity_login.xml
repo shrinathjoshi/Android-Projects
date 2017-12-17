@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.chatapp.loginActivity">
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/login_toolbar"/>
+
+
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Material.Body2"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:text="@string/login"
+        app:layout_constraintTop_toBottomOf="@+id/login_toolbar"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="15dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilYourEmail"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogin"
+        tools:layout_editor_absoluteX="8dp">
+
+        <EditText
+            android:id="@+id/etYourEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Email"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilYourPassword"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/tilYourEmail"
+        tools:layout_editor_absoluteX="8dp">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="257dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        app:layout_constraintTop_toBottomOf="@+id/tilYourPassword" />
+
+</RelativeLayout>

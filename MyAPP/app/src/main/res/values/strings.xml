@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyAPP</string>
+
+    <string name="tap">Tap me if you dare</string>
+    <string name="tapme">Tap me !</string>
+</resources>

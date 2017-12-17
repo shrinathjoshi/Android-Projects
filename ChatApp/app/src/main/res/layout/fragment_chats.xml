@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.hp.chatapp.ChatsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycle_view_chat"
+        android:layout_above="@+id/etMessage"
+        app:layoutManager="LinearLayoutManager"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    <!-- TODO: Update blank fragment layout -->
+  <!--  <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Chats Page" />
+-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMessage"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/chat_rounded_rect_bg"
+        android:hint="type a message"
+        android:imeOptions="actionSend"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="10dp"
+
+        />
+</RelativeLayout>

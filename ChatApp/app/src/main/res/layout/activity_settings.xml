@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.hp.chatapp.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/images"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="CHANGE STATUS"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/btnImage"
+        android:layout_alignStart="@+id/btnImage"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/setting_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Display Name"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/setting_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="Hey There, I 'm using Lets Chat"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:layout_below="@+id/setting_display_name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHANGE IMAGE"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/setting_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
+
+</RelativeLayout>

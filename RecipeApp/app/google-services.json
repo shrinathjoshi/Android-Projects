@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "92803916347",
+    "project_id": "steady-voltage-170314"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92803916347:android:8095cf31f05f37c4",
+        "android_client_info": {
+          "package_name": "com.example.hp.recipeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92803916347-3aruv2bcjvrb3glscg24fvhtcpdogcbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.recipeapp",
+            "certificate_hash": "b18b8f4ff980f8930bd238d3c1cbdadc6c34bb9d"
+          }
+        },
+        {
+          "client_id": "92803916347-c2oar7tch7q08v2a01tpbbhapfmjnnoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9LUs5LQ4OEV38zLljfi1IOlrrDEFOf4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

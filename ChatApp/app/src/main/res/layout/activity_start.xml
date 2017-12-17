@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.hp.chatapp.StartActivity">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:text="Welcome to Let's Chat App"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:layout_above="@+id/btnneedAccount"
+            android:layout_alignParentEnd="true" />
+
+
+        <Button
+            android:id="@+id/btnneedAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Need a new Account"
+            android:textColor="@android:color/white"
+            android:layout_above="@+id/btnhaveAccount"
+            android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:id="@+id/btnhaveAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have Account"
+            android:layout_marginBottom="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

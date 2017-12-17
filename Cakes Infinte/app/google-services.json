@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "10956443472",
+    "project_id": "cakes-infinite"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10956443472:android:9aed488a29fdf25b",
+        "android_client_info": {
+          "package_name": "com.project.arcstudio.cakesinfinite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10956443472-11fijtu6vfgjki9ur3urjuofpr24nvcr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "10956443472-gh9l21p1649m3pc09gk5k2q0sic84lgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.arcstudio.cakesinfinite",
+            "certificate_hash": "01da731bb941f97865291033212db677bd6a3168"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGyFeimNQh5bz0ysvzRTeSKfrSvOl03I0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

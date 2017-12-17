@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_fondant_cakes"
+            android:title="@string/nav_fondant_cakes" />
+        <item
+            android:id="@+id/nav_custom_cakes"
+            android:title="@string/nav_custom_cakes" />
+        <item
+            android:id="@+id/nav_express_delivery"
+            android:title="@string/nav_express_delivery" />
+        <item
+            android:id="@+id/nav_ice_cream_cakes"
+            android:title="@string/nav_ice_cream_cakes" />
+        <item
+            android:id="@+id/nav_cup_cakes"
+            android:title="@string/nav_cup_cakes" />
+        <item
+            android:id="@+id/nav_sweets"
+            android:title="@string/nav_sweets" />
+        <item
+            android:id="@+id/nav_doughnuts"
+            android:title="@string/nav_doughnuts" />
+        <item
+            android:id="@+id/nav_biscuits"
+            android:title="@string/nav_biscuits" />
+        <item
+            android:id="@+id/nav_brownies"
+            android:title="@string/nav_brownies" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_blog"
+                android:title="@string/nav_blog" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_delivery_policy"
+                android:title="@string/nav_delivery_policy" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/nav_privacy_policy" />
+            <item
+                android:id="@+id/nav_terms_and_conditions"
+                android:title="@string/nav_terms_and_conditions" />
+            <item
+                android:id="@+id/nav_contact_us"
+                android:title="@string/nav_contact_us" />
+
+        </menu>
+    </item>
+
+</menu>
